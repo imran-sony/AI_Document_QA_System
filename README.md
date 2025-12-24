@@ -107,4 +107,4 @@ Remove-Item -Recurse -Force data\vectorstore
 
 ## 📊 Example  
 
-![1](.Output/1.png)
+![1](Output/1.png)
