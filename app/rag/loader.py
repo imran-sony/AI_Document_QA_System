@@ -1,0 +1,9 @@
+from langchain_community.document_loaders import PyPDFLoader, Docx2txtLoader
+
+def load_document(path: str):
+    if path.endswith(".pdf"):
+        return PyPDFLoader(path).load()
+    elif path.endswith(".docx"):
+        return Docx2txtLoader(path).load()
+    else:
+        raise ValueError("Unsupported file type")
