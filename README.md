@@ -101,4 +101,10 @@ docker-compose up --build
 
 ## 🧹 Reset Vector Store
 
-Remove-Item -Recurse -Force data\vectorstore
+Remove-Item -Recurse -Force data\vectorstore  
+
+---
+
+## 📊 Example  
+
+![1](.Output/1.png)
